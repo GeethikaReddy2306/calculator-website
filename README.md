@@ -38,9 +38,10 @@ This app allows users to perform basic arithmetic operations like addition, subt
 
 ---
 
-## 🖼️ Screenshot (Optional)
+## 🖼️ Screenshot :
 
-You can add a screenshot of your calculator UI here:  
+<img width="710" height="925" alt="mobile view" src="https://github.com/user-attachments/assets/f7920a2f-fe65-42de-937b-dd21452f5d5a" />
+  
 
 
 ---
@@ -64,4 +65,5 @@ You can add a screenshot of your calculator UI here:
 -Small devices (≤ 350px)
 
 -Desktop and tablet layouts
+
 
