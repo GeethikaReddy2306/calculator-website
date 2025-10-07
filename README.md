@@ -1,76 +1,67 @@
-🧮 Simple Calculator
+# 🧮 Modern Calculator Web App
 
-A clean, responsive, and modern web calculator built using HTML, CSS, and JavaScript.
-It performs basic arithmetic operations like addition, subtraction, multiplication, and division — all inside a beautiful and interactive UI.
+A **stylish and fully functional calculator** built using **HTML, CSS, and JavaScript**.  
+This app allows users to perform basic arithmetic operations like addition, subtraction, multiplication, division, and percentage with a clean, modern UI and smooth animations.
 
-✨ Features
+🌐 **Live Demo:[https://calculator-website-tau.vercel.app/]
+--
 
-✅ User-friendly and responsive design
-✅ Interactive button animations and hover effects
-✅ Error handling for invalid inputs
-✅ Real-time calculation display
-✅ Stylish “=” button (spans 3 columns for emphasis)
-✅ Clear display (“AC”) button to reset quickly
-✅ Fully built with vanilla JS, no libraries required
+## 🚀 Features
 
-🖼️ Preview
+- Simple and intuitive user interface  
+- Responsive design (works on all devices)  
+- Handles arithmetic operations (`+`, `-`, `*`, `/`, `%`)  
+- Real-time display updates  
+- Elegant hover and click animations  
+- Built-in error handling for invalid expressions  
+- Clean dark theme with gradient background  
 
-You can open the project in your browser to see it in action.
-Example UI:
+---
 
-┌───────────────────────┐
-│         123+456       │
-├───────────────────────┤
-│ AC | 00 | % | +       │
-│ 7  | 8  | 9 | X       │
-│ 4  | 5  | 6 | -       │
-│ 1  | 2  | 3 | /       │
-│ 0  | .  |      =      │  ← Equal button spans 3 columns
-└───────────────────────┘
+## 🛠️ Technologies Used
 
-🧠 How It Works
+- **HTML5** — Structure of the app  
+- **CSS3** — Styling and responsiveness  
+- **JavaScript (ES6)** — Functionality and logic  
 
-The display (<input id="display">) shows your entered values and results.
+---
 
-Each button calls a JS function:
+---
 
-getElement(value) → adds number/operator to display
+## 💡 How It Works
 
-clearDisplay() → clears display
+- Click the buttons to input numbers or operators.
+- Press `=` to calculate the result.
+- Use `AC` to clear the display.
+- Supports multiple-digit numbers and decimal inputs.
+- Error message appears for invalid operations.
 
-calculate() → uses eval() to compute the expression
+---
 
-If an invalid expression is entered, the display shows "Error".
+## 🖼️ Screenshot (Optional)
 
-💻 Technologies Used
-
-HTML5 → Structure
-
-CSS3 → Styling, layout, and animations
-
-JavaScript (ES6) → Logic and interactivity
-
-📁 Project Structure
-├── index.html        # Main page
-├── styles.css        # Styling file
-└── app.js            # JavaScript logic
-
-⚙️ Setup & Usage
-
-Download or clone this repository:
-
-git clone https://github.com/your-username/calculator.git
+You can add a screenshot of your calculator UI here:  
 
 
-Open the project folder.
+---
 
-Double-click index.html or open it in your browser.
+## 🧑‍💻 Code Explanation
 
-Start calculating!
+### JavaScript Logic (`app.js`)
 
-🚀 Future Enhancements
+-getElement() → Appends the clicked button’s value to the display.
 
-🔹 Add keyboard support (type numbers directly)
-🔹 Add dark/light mode toggle
-🔹 Include advanced functions (square root, power, etc.)
-🔹 Improve mobile design
+-clearDisplay() → Clears the calculator screen.
+
+-calculate() → Evaluates the entered expression and displays the result.
+
+📱 Responsive Design
+
+-The calculator is fully responsive, adapting to:
+
+-Mobile screens (≤ 480px)
+
+-Small devices (≤ 350px)
+
+-Desktop and tablet layouts
+
